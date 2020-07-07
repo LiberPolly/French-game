@@ -16,7 +16,7 @@
     <button class="button" @click="clearStatistics()" v-if="seenBtn">
       <p>
         Remettre
-        <br />à&nbsp;zéro
+        <br/> à&nbsp;zéro
       </p>
     </button>
   </div>
@@ -35,7 +35,7 @@ export default {
   methods: {
     clearStatistics() {
       localStorage.clear();
-      document.location.reload();
+      document.location.reload(true);
     }
   },
 

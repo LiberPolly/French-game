@@ -197,5 +197,13 @@ li {
   .nav-links {
     font-size: 1.2rem;
   }
+  .nav-links-p {
+    font-size: 1.2rem;
+  }
+
+  nav {
+  height: 40px;
+}
+
 }
 </style>

@@ -107,7 +107,7 @@ export default {
   methods: {
     onSubmit() {
       console.log(this.lastQuestion);
-      let newAnswer = this.title.trim();
+      let newAnswer = this.title.trim().toLowerCase();
       this.checkAnswer(newAnswer);
     },
 
@@ -259,19 +259,33 @@ input {
 
 @media screen and (max-width: 414px) {
   h1 {
-    margin-top: 90px;
-    margin-bottom: 1px;
+    margin-top: 50px;
+    margin-bottom: 5px;
     font-size: 1.2rem;
   }
 
   .game-img {
-    width: 208px;
-    height: 224.5px;
+    width: 188px;
+    height: 204.5px;
+    margin-top: -10px;
+    margin-bottom: -50px;
   }
 
   input {
     margin-top: 0px;
     font-size: 1rem;
   }
+
+input {
+  margin-top: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+}
+
+
+.progress {
+  height: 0.8rem;
+  font-size: 0.8rem;
+} 
 }
 </style>

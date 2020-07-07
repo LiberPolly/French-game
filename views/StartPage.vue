@@ -127,15 +127,6 @@ nav {
   color: #ffa1f6;
 }
 
-.main-logo {
-  display: flex;
-  align-self: center;
-  margin: 0 0 30px 0;
-  padding: 0 0 0 0;
-  height: 268px;
-  width: 372.5px;
-}
-
 .video {
   display: flex;
   align-self: center;
@@ -214,14 +205,8 @@ h2 {
 }
 
 @media screen and (max-width: 414px) {
-  .main-logo {
-    margin-bottom: 0;
-    height: 134px;
-    width: 186px;
-  }
-
   .video {
-    margin-top: 60px;
+    margin-top: 0;
     margin-bottom: 10px;
     height: 154px;
     width: 304;
@@ -234,12 +219,12 @@ h2 {
 
   h1 {
     font-size: 1.2rem;
-    margin: 2px 0 2px 0;
+    margin: 10px 0 30px 0;
   }
 
   h2 {
     font-size: 1rem;
-    margin: 2px 0 2px 0;
+    margin: 60px 0 10px 0;
   }
 
   .button-p {

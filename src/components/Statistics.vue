@@ -12,7 +12,7 @@
       </tr>
     </table>
     <router-link class="button" to="/">
-      <p>Jouer encore!</p>
+      <p>Jouer&nbsp;encore!</p>
     </router-link>
   </div>
 </template>
@@ -65,9 +65,9 @@ td:last-child {
 
 .button p {
   display: inline;
-  margin: 0 0 0 0;
+  margin: 5px 0 0 0;
   padding: 0 0 0 0;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .button {
@@ -75,7 +75,7 @@ td:last-child {
   align-self: center;
   justify-content: center;
   margin: 15px 0 15px 0;
-  padding: 19px 0 4px 0;
+  padding: 20px 0 4px 0;
   height: 55px;
   width: 190px;
   text-decoration: none;
@@ -118,13 +118,14 @@ td:last-child {
   }
 
   .main-logo {
-    margin: 0;
+    margin-top: -35px;
+    margin-bottom: 0;
     height: 67px;
     width: 93px;
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 0;
   }
 
@@ -135,15 +136,16 @@ td:last-child {
   }
 
   .button p {
-    font-size: 1rem;
+    margin: -12px 0 0 0;
+    font-size: 1.2rem;
     width: 100%;
   }
 
   .button {
     margin: 10px 0 0 0;
     padding: 25px 50px;
-    height: 30px;
-    width: 90px;
+    height: 20px;
+    width: 60px;
   }
 }
 </style>

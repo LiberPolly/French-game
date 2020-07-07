@@ -135,5 +135,18 @@ export default {
     font-size: 1.3rem;
     margin-top: 0;
   }
+    ul {
+    margin-right: 10px;
+  }
+  .nav-links {
+    font-size: 1.2rem;
+  }
+  .nav-links-p {
+    font-size: 1.2rem;
+  }
+
+  nav {
+  height: 40px;
+}
 }
 </style>

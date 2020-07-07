@@ -227,6 +227,20 @@ h2 {
     margin: 60px 0 10px 0;
   }
 
+  ul {
+    margin-right: 10px;
+  }
+  .nav-links {
+    font-size: 1.2rem;
+  }
+  .nav-links-p {
+    font-size: 1.2rem;
+  }
+
+  nav {
+  height: 40px;
+}
+
   .button-p {
     font-size: 2rem;
   }

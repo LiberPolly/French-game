@@ -47,6 +47,14 @@
     font-size: 1.2rem;
     margin: 8px;
   }
+
+  .nav-links-p {
+    font-size: 1.2rem;
+  }
+
+  nav {
+  height: 40px;
+}
 }
 </style>
 

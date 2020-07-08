@@ -202,8 +202,13 @@ li {
   }
 
   nav {
-  height: 40px;
+    height: 40px;
+  }
 }
 
+@media screen and (max-height: 768px) {
+  nav {
+    height: 60px;
+  }
 }
 </style>

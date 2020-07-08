@@ -42,7 +42,7 @@
   .nav-ul {
     margin-right: 10px;
   }
-  
+
   .nav-links {
     font-size: 1.2rem;
     margin: 8px;
@@ -53,8 +53,8 @@
   }
 
   nav {
-  height: 40px;
-}
+    height: 40px;
+  }
 }
 </style>
 

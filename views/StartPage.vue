@@ -68,7 +68,7 @@ export default {
     toStart() {
       let savedGames = {
         games: [[this.CurrentDate, 1, 0]]
-        };
+      };
 
       if (!localStorage.getItem("savedGames")) {
         localStorage.setItem("savedGames", JSON.stringify(savedGames));
@@ -209,7 +209,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 10px;
     height: 154px;
-    width: 304;
+    width: 304px;
   }
 
   .video-frame {
@@ -238,8 +238,45 @@ h2 {
   }
 
   nav {
-  height: 40px;
+    height: 40px;
+  }
+
+  .button-p {
+    font-size: 2rem;
+  }
+
+  .button {
+    margin: 10px 0 0 0;
+    padding: 25px 50px;
+    height: 30px;
+    width: 90px;
+  }
 }
+
+@media screen and (max-height: 768px) {
+  .video {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .video-frame {
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    margin: 10px 0 10px 0;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    margin: 20px 0 10px 0;
+    font-size: 1.3rem;
+  }
+
+  nav {
+    height: 60px;
+  }
 
   .button-p {
     font-size: 2rem;

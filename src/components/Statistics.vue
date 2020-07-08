@@ -148,4 +148,22 @@ td:last-child {
     width: 60px;
   }
 }
+
+@media screen and (max-height: 768px) {
+  h1 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+  }
+
+  .main-logo {
+    margin-top: -15px;
+    margin-bottom: 0;
+  }
+
+  td {
+    font-size: 1rem;
+    width: 180px;
+    height: 30px;
+  }
+}
 </style>

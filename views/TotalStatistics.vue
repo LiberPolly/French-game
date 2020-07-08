@@ -16,7 +16,7 @@
     <button class="button" @click="clearStatistics()" v-if="seenBtn">
       <p>
         Remettre
-        <br/> à&nbsp;zéro
+        <br />à&nbsp;zéro
       </p>
     </button>
   </div>
@@ -135,7 +135,7 @@ export default {
     font-size: 1.3rem;
     margin-top: 0;
   }
-    ul {
+  ul {
     margin-right: 10px;
   }
   .nav-links {
@@ -146,7 +146,7 @@ export default {
   }
 
   nav {
-  height: 40px;
-}
+    height: 40px;
+  }
 }
 </style>

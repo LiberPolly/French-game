@@ -276,16 +276,33 @@ input {
     font-size: 1rem;
   }
 
-input {
-  margin-top: 0;
-  padding: 0.4rem 0.8rem;
-  font-size: 1rem;
+  input {
+    margin-top: 0;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  .progress {
+    height: 0.8rem;
+    font-size: 0.8rem;
+  }
 }
 
+@media screen and (max-height: 768px) {
+  h1 {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+  }
 
-.progress {
-  height: 0.8rem;
-  font-size: 0.8rem;
-} 
+  .game-img {
+    width: 308px;
+    height: 324.5px;
+    margin-bottom: -20px;
+  }
+
+  input {
+    margin-top: 7px;
+  }
 }
 </style>

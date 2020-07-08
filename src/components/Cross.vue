@@ -106,9 +106,13 @@ svg {
 
 @media screen and (max-width: 414px) {
   svg {
-    width: 200px;
-    display: block;
     margin: 10px auto 20px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  svg {
+    margin: 89px auto 20px;
   }
 }
 </style>

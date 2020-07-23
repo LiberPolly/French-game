@@ -167,17 +167,17 @@ h2 {
   font-weight: bold;
   color: #fff;
   border: none;
-  border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
-  background: #e8d83d;
+  border-radius: 50px;
   background: -moz-linear-gradient(top, #e8d83d 0%, #c0ae36 100%);
   background: -webkit-linear-gradient(top, #e8d83d 0%, #c0ae36 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0ae36', endColorstr='#c0ae36',GradientType=0 );
   background: linear-gradient(top, #e8d83d 0%, #c0ae36 100%);
-  box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
+  background: #e8d83d;
   -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
   -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
 }
 .button:hover {
   background: -moz-linear-gradient(top, #e8d83d 0%, #fd80f1 100%);

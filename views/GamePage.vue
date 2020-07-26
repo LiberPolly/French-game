@@ -34,89 +34,125 @@ export default {
         2: [
           "le mouton est sur le cube et le cube est sur la colonne",
           "le mouton est sur le cube qui est sur la colonne",
-          "le mouton est sur le cube et la colonne est sous le cube"
+          "le mouton est sur le cube et la colonne est sous le cube",
+          "le mouton est sur le cube"
         ],
         3: [
           "le mouton est sur le cube et sous la colonne",
-          "le mouton est sous la colonne et sur le cube"
+          "le mouton est sous la colonne et sur le cube",
+          "le mouton est sur le cube",
+          "le mouton est sous la colonne"
         ],
         4: [
           "le mouton est à gauche du cube et le cube est à gauche de la colonne",
           "le mouton est à gauche du cube qui est à gauche de la colonne",
-          "le mouton est à gauche du cube et la colonne est à droite du cube"
+          "le mouton est à gauche du cube et la colonne est à droite du cube",
+          "le mouton est à gauche du cube"
         ],
         5: [
           "le mouton est devant la colonne et derrière le cube",
-          "le mouton est derrière le cube et devant la colonne"
+          "le mouton est derrière le cube et devant la colonne",
+          "le mouton est devant la colonne",
+          "le mouton est derrière le cube"
         ],
         6: [
           "le mouton est devant la colonne et la colonne est devant le cube",
-          "le mouton est devant la colonne qui est derrière le cube"
+          "le mouton est devant la colonne qui est derrière le cube",
+          "le mouton est devant la colonne"
         ],
         7: [
           "le mouton est dans le cube et sous la colonne",
-          "le mouton est dans le cube qui est sous la colonne"
+          "le mouton est dans le cube qui est sous la colonne",
+          "le mouton est dans le cube",
+          "le mouton est sous la colonne"
         ],
         8: [
           "le mouton est dans le cube et à droite de la colonne",
-          "le mouton est dans le cube qui est à droite de la colonne"
+          "le mouton est dans le cube qui est à droite de la colonne",
+          "le mouton est dans le cube",
+          "le mouton est à droite de la colonne"
         ],
         9: [
           "le mouton est loin de la colonne et la colonne est à droite du cube",
-          "le mouton est loin de la colonne qui est à droite du cube"
+          "le mouton est loin de la colonne qui est à droite du cube",
+          "le mouton est loin de la colonne",
+          "le mouton est loin du cube"
         ],
         10: [
           "le mouton est à droite de la colonne et le cube est loin du mouton",
-          "le mouton est à droite de la colonne et le cube est loin derrière le mouton"
+          "le mouton est à droite de la colonne et le cube est loin derrière le mouton",
+          "le mouton est à droite de la colonne",
+          "le mouton est loin du cube"
         ],
         11: [
           "le mouton est à gauche du cube et le cube est sous la colonne",
-          "le mouton est à gauche du cube qui est sous la colonne"
+          "le mouton est à gauche du cube qui est sous la colonne",
+          "le mouton est à gauche du cube",
+          "le mouton est sous la colonne"
         ],
         12: [
           "le mouton est sur la colonne et la colonne est à gauche du cube",
-          "le mouton est sur la colonne qui est à gauche du cube"
+          "le mouton est sur la colonne qui est à gauche du cube",
+          "le mouton est sur la colonne",
+          "le mouton est à gauche du cube"
         ],
         13: [
           "le mouton est au dessus de la colonne et la colonne est au-dessus du cube",
-          "le mouton est au dessus de la colonne qui est au-dessus du cube"
+          "le mouton est au dessus de la colonne qui est au-dessus du cube",
+          "le mouton est au dessus de la colonne"
         ],
         14: [
           "le mouton est au dessus de la colonne et au-dessous du cube",
-          "le mouton est au-dessous du cube et au-dessus de la colonne"
+          "le mouton est au-dessous du cube et au-dessus de la colonne",
+          "le mouton est au dessus de la colonne",
+          "le mouton est au dessous du cube"
         ],
         15: [
           "le mouton est à gauche de la colonne et la colonne est à gauche du cube",
           "le mouton est à gauche de la colonne et le cube  est à droite de la colonne",
-          "le mouton est à gauche de la colonne qui est à droite du cube"
+          "le mouton est à gauche de la colonne qui est à droite du cube",
+          "le mouton est à gauche de la colonne",
+          "le mouton est à gauche du cube"
         ],
         16: [
           "le mouton est derrière le cube et le cube est derrière la colonne",
           "le mouton est derrière le cube et la colonne est derrière le cube",
-          "le mouton est derrière le cube qui est derrière la colonne"
+          "le mouton est derrière le cube qui est derrière la colonne",
+          "le mouton est derrière le cube",
+          "le mouton est derrière la colonne"
         ],
         17: [
-          "le mouton est sous le cube et la colonne est sur le mouton",
+          "le mouton est sous le cube et la colonne est sur le cube",
           "le mouton est sous le cube qui est sous la colonne",
-          "le mouton est sous le cube et le cube est sous la colonne"
+          "le mouton est sous le cube et le cube est sous la colonne",
+          "le mouton est sous le cube",
+          "le mouton est sous la colonne"
         ],
         18: [
           "le mouton est au-dessous de la colonne et la colonne est au-dessous du cube",
           "le mouton est au-dessous de la colonne et le cube est au-dessus de la colonne",
-          "le mouton est au-dessous de la colonne qui est au-dessous du cube"
+          "le mouton est au-dessous de la colonne qui est au-dessous du cube",
+          "le mouton est au-dessous de la colonne",
+          "le mouton est au-dessous du cube"
         ],
         19: [
           "le mouton est à droite du cube et la colonne est loin du mouton",
-          "le mouton est à droite du cube et ils sont loin de la colonne"
+          "le mouton est à droite du cube et ils sont loin de la colonne",
+          "le mouton est à droite du cube",
+          "le mouton est loin de la colonne"
         ],
         20: [
           "le mouton est dans le cube et le cube est sur la colonne",
-          "le mouton est dans le cube qui est sur la colonne"
+          "le mouton est dans le cube qui est sur la colonne",
+          "le mouton est dans le cube",
+          "le mouton est sur la colonne"
         ],
         21: [
           "le mouton est sur le cube et la colonne est à gauche du cube",
           "le mouton est sur le cube et le cube est à droite de la colonne",
-          "le mouton est sur le cube qui est à droite de la colonne"
+          "le mouton est sur le cube qui est à droite de la colonne",
+          "le mouton est sur le cube",
+          "le mouton est à gauche de la colonne"
         ],
         22: [
           "les cubes sont autour du mouton",
